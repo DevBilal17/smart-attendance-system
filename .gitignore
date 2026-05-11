@@ -1,0 +1,93 @@
+# =========================
+# ROOT
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+*.tmp
+
+# =========================
+# NODE / EXPRESS BACKEND
+# =========================
+node/node_modules/
+node/package-lock.json
+node/yarn.lock
+node/dist/
+node/build/
+node/uploads/
+node/.env
+
+# =========================
+# REACT WEB FRONTEND
+# =========================
+website/node_modules/
+website/dist/
+website/build/
+website/.env
+website/.cache/
+
+# Vite
+website/.vite/
+
+# Next.js
+website/.next/
+website/out/
+
+# Logs
+website/npm-debug.log*
+website/yarn-debug.log*
+website/yarn-error.log*
+website/pnpm-debug.log*
+
+# Coverage
+website/coverage/
+
+# TypeScript
+website/*.tsbuildinfo
+
+
+# =========================
+# PYTHON / FASTAPI AI
+# =========================
+ai/venv/
+ai/.venv/
+ai/__pycache__/
+ai/*.pyc
+ai/.env
+
+# Python cache
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints
+
+# FastAPI temp
+ai/uploads/
+ai/temp/
+
+# AI Models
+ai/models/
+ai/checkpoints/
+ai/chroma_db/
+*.pt
+*.pth
+*.h5
+*.onnx
+*.ckpt
+*.pickle
+*.joblib
+
+# =========================
+# VS CODE / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS FILES
+# =========================
+*.swp
+*.swo
