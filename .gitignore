@@ -16,6 +16,7 @@ node/package-lock.json
 node/yarn.lock
 node/dist/
 node/build/
+node/uploads/
 node/.env
 
 # =========================
